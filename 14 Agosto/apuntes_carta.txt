@@ -1,0 +1,42 @@
+Principalmente se programa en C (ya no se hace en ensamblador),
+con ambientes reales y virtuales por sobre distintas plataformas
+(8051, PIC, AVR, ARM, 6800, etc).
+
+Por suerte se usa git, para ordenar el progreso de los proyectos,
+se usa Telegram para consultas fuera del horario de la carta.
+
+Nadie lee la totalidad de la hoja de datos.
+
+Se solicita un proyecto final serio, se proponen ideas, se
+investiga formalmente, el enunciado aún no es relevante.
+
+Linux yay, Win nay.
+
+El ideal es no trabajar simulado. Idealmente trabajar con módulos
+pristinos, suena caro.
+
+Repasar USART, ya conozco SPI y I2C.
+
+Edge AI, buscar limitaciones para las tarjetas a usar, buscar casos
+de uso reales para limitar.
+
+Buscar estimadores de PowerManagement.
+
+El proyecto tiene valor distribuido en el tiempo pero al puro final
+la entrega es todo o nada.
+
+Hay cinco labs.
+
+Por semana el cronograma es: Materia, ___, ___, materia, ___, ___, ...
+
+Entregar algo funcional está por sobre cumplir con TODOS los objetivos
+propuestos.
+
+Advirtieron de no usar plagio, cuidado con el código en Turnitin.
+
+Se recomienda SimulIDE junto con el resto de fuentes. No hay fuente única
+para el curso.
+
+Si algo se jode se repone como nuevo, se entregan las cosas ordenadas.
+
+¡¡¡Preguntar contraseña MEDIACIÓN VIRTUAL!!!
