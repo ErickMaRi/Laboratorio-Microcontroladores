@@ -213,9 +213,9 @@ General Purpose Input Output
 
 Por ejemplo en el **PIC 12F683** se usan varios registros para operarlos:
 
-- **TRISIO** : En este registro establecemmos si un pin es salida o entrada. TODO??? corregir
-- **GPIO** : En modo de entrada se lee el estado del pin y se escribe al latch de salida. TODO??? corregir
-- **ANSEL/CMCON**: Debe inicializarse para configurar un canal analógico, como entrada digital. 
+- **TRISIO** : Configura la dirección de los pines (entrada/salida).
+- **GPIO** : Lee el estado de los pines en modo entrada y controla el estado en modo salida.
+- **ANSEL/CMCON** : Debe inicializarse para configurar un canal analógico, como entrada digital. 
 - **CONFIG** : Sirve para usar pines de reset como entradas.
 
 Entonces en el **PIC** tenemos un registro que usa seis bits para configurar los TRISIO para entrada o salida (donde sea posible uno u el otro), este registro debe ser configurado usualmente en la inicialización del programa en **C**.
